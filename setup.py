@@ -13,6 +13,8 @@ setuptools.setup(
         "Development Status :: 1 - Planning"
     ],
     install_requires=[
+        'numpy',
+        'nidaqmx',
     ],
     python_requires='>=3.9',
 )
